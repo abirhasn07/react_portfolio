@@ -29,7 +29,6 @@ body {
 	font-family: var(--ff-primary);
 	background: var(--backgroundColor);
 	color: var(--darkBlue);
-
 }
 
 li {
@@ -39,10 +38,7 @@ a {
 	text-decoration: none;
 }
 
-//    CUSTOM CLASSES
-
-
-
+/* //    CUSTOM CLASSES */
 
 .subtitle {
 	text-align: center;

@@ -10,7 +10,7 @@
 	flex-direction: column;
 	width: 90%;
 	margin: 0 auto;
-    align-items: center;
+	align-items: center;
 }
 .subtitle {
 	text-align: center;
@@ -77,34 +77,34 @@ figcaption > p {
 	.project-container {
 		flex-direction: column;
 		padding: 0px;
-        width: 100%;
+		width: 100%;
 	}
-    .subtitle {
-        text-align: center;
-        position: relative;
-        width: max-content;
-        margin: 40px auto;
-        font-size: 32px;
-        text-transform: capitalize;
-    }
-    article{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+	.subtitle {
+		text-align: center;
+		position: relative;
+		width: max-content;
+		margin: 40px auto;
+		font-size: 32px;
+		text-transform: capitalize;
+	}
+	article {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 
-    figure{
-        width: 100%;
-    }
-    figcaption{
-        width: 100%;
-    }
+	figure {
+		width: 100%;
+	}
+	figcaption {
+		width: 100%;
+	}
 
-    .button-group>a{
-        font-size: 18px;
-    }
+	.button-group > a {
+		font-size: 18px;
+	}
 	.see_button {
 		margin-top: 50px;
-        width: 60%;
+		width: 60%;
 	}
 }
