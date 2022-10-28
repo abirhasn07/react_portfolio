@@ -1,0 +1,98 @@
+:root {
+	--backgroundColor: #0f191e;
+	--white: #ffff;
+	--black: #fff;
+	--darkBlue: #fefefe;
+	--violentDark: #6366f1;
+	--violentLight: #8f9af8;
+	--sidebar: #bfcad0;
+	--boxShadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	--boxShadow2: 0px 4px 4px rgba(99, 102, 241, 0.5);
+	--maxWidth: 1280px;
+	--fontLarge: 76px;
+	--fontMed: 1.7rem;
+	--fontSmall: 1.4rem;
+	--fontMini: 1rem;
+
+	--ff-primary: 'Big Shoulders Text', cursive;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	box-sizing: border-box;
+	font-weight: 300;
+	font-family: var(--ff-primary);
+	background: var(--backgroundColor);
+	color: var(--darkBlue);
+
+}
+
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+
+//    CUSTOM CLASSES
+
+
+
+
+.subtitle {
+	text-align: center;
+	position: relative;
+	width: max-content;
+	margin: 20px auto;
+	font-size: 66px;
+	text-transform: capitalize;
+}
+
+.button-primary {
+	min-width: 130px;
+	padding: 10px 20px;
+	background: var(--violentDark);
+	border: transparent;
+	color: var(--white);
+	font-size: var(--fontMini);
+	border-radius: 5px;
+	box-shadow: var(--boxShadow);
+	cursor: pointer;
+	transition: background 300ms ease-in;
+	text-transform: capitalize;
+	-webkit-transition: background 300ms ease-in;
+	-moz-transition: background 300ms ease-in;
+	-ms-transition: background 300ms ease-in;
+	-o-transition: background 300ms ease-in;
+}
+
+.button-primary:hover {
+	background: transparent;
+	border: 1px solid var(--white);
+	color: var(--white);
+	text-align: center;
+}
+
+.button-secondary {
+	min-width: 130px;
+	padding: 10px 20px;
+	background: transparent;
+	border: 1px solid var(--white);
+	color: var(--white);
+	font-size: var(--fontMini);
+	border-radius: 5px;
+	box-shadow: var(--boxShadow);
+	cursor: pointer;
+	transition: background 300ms ease-in;
+	text-align: center;
+	text-transform: capitalize;
+}
+.button-secondary:hover {
+	background: var(--violentDark);
+	border: 1px solid var(--violentDark);
+}
