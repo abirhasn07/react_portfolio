@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { CgMenuRight, CgCloseR } from 'react-icons/cg';
-import './Navbar.css'
+import './Navbar.css';
 
 const Navbar = () => {
 	const [menu, showMenu] = useState(false);

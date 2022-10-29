@@ -65,8 +65,8 @@ span::selection{
 }
 
 .button-primary {
-	min-width: 130px;
-	padding: 10px 20px;
+	min-width: 150px;
+	padding: 10px 10px;
 	background: var(--violentDark);
 	border: 1px solid var(--violentDark);
 	color: var(--white);
@@ -95,7 +95,7 @@ span::selection{
 
 .button-secondary {
 	min-width: 130px;
-	padding: 10px 20px;
+	padding: 10px 10px;
 	background: transparent;
 	border: 1px solid var(--white);
 	color: var(--white);
@@ -110,6 +110,7 @@ span::selection{
 	align-items: center;
 	justify-content: center;
 	gap: 5px;
+	
 }
 .button-secondary:hover {
 	background: var(--violentDark);
