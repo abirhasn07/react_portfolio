@@ -3,10 +3,11 @@
 	width: 100%;
 	margin: 0 auto;
 	padding-block: 100px;
-	min-height: 80vh;
+	
 	display: flex;
 	align-items: center;
    margin-top: 80px;
+
    
     
 }
@@ -19,6 +20,7 @@
 	align-items: center;
 	width: 90%;
 	margin: 0 auto;
+
 }
 
 .header-info {
@@ -29,6 +31,7 @@
 	font-size: var(--fontLarge);
 	font-weight: 900;
     margin-block: 1rem;
+  
 }
 .header-info>p{
     font-size: var(--fontSmall);
@@ -75,6 +78,7 @@
         line-height: 100%;
         font-size: 46px;
         width: 100%;
+       
     }
     .header-info>p{
         text-align: center;

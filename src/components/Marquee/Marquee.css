@@ -1,6 +1,6 @@
 .marquee_container {
 	min-height: 100px;
-	margin-block: 100px;
+	margin-block: 50px;
 	width: 100%;
 }
 
@@ -9,20 +9,20 @@
 	position: relative;
 	width: max-content;
 	margin: 20px auto;
-	font-size: 96px;
-	text-transform: capitalize;
+	font-size: 66px;
+	text-transform: uppercase;
 	font-weight: 900;
-	border-top: 1px solid snow;
-	border-bottom: 1px solid snow;
-	font-style: italic;
+	border-top: 1px dashed var(--violentLight);;
+	border-bottom: 1px dashed var(--violentLight);;
+	font-style: normal;
 	color: transparent;
-	-webkit-text-stroke: 1px snow;
+	-webkit-text-stroke: 1px var(--violentLight);
 }
 
 @media (max-width: 600px) {
 	.marquee_container {
 		min-height: 70px;
-		margin-block: 30px;
+		margin-block: 0px 70px;
 		width: 100%;
 	}
 
@@ -31,13 +31,13 @@
 		position: relative;
 		width: max-content;
 		margin: 20px auto;
-		font-size: 66px;
-		text-transform: capitalize;
-		font-weight: 900;
-		border-top: 1px solid snow;
-		border-bottom: 1px solid snow;
-		font-style: italic;
-		color: transparent;
-		-webkit-text-stroke: 1px snow;
+		font-size: 42px;
+		text-transform: uppercase;
+	font-weight: 900;
+	border-top: 1px dashed var(--violentLight);;
+	border-bottom: 1px dashed var(--violentLight);;
+	font-style: normal;
+	color: transparent;
+	-webkit-text-stroke: 1px var(--violentLight);
 	}
 }
