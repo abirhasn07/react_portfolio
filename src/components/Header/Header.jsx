@@ -21,7 +21,7 @@ const Header = () => {
 								My Works{' '}
 								<span>
 									<svg
-										width="42"
+										width="22"
 										height="20"
 										viewBox="0 0 42 20"
 										fill="none"
@@ -36,7 +36,11 @@ const Header = () => {
 									</svg>
 								</span>
 							</a>
-							<a href="" className="button-secondary">
+							<a
+								href="https://drive.google.com/file/d/1KEgC_bkEpwlaSlW2-peMJCfX-jXjz6px/view"
+								target="_blank"
+								className="button-secondary"
+							>
 								Resume
 							</a>
 						</div>
