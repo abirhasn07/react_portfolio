@@ -58,7 +58,7 @@ const ProjectsContainer = () => {
 											</a>
 											<a
 												className="button-secondary"
-												href={item.live}
+												href={item.git}
 												target="_blank"
 												rel="noopener noreferrer"
 											>
@@ -77,7 +77,7 @@ const ProjectsContainer = () => {
 														/>
 													</svg>
 												</span>{' '}
-												chekcode
+												github
 											</a>
 										</div>
 									</figcaption>
