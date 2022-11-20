@@ -1,0 +1,45 @@
+#skill {
+  width: 100%;
+  margin: 100px auto;
+  min-height: 45vh;
+  display: grid;
+  place-items: center;
+  gap: 0;
+}
+
+.skill_info {
+  width: 75%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill_info > li {
+  width: fit-content;
+  text-transform: uppercase;
+  background: #22272e;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  font-size: 32px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.skill_info li:hover {
+  background-color: var(--violentDark);
+}
+
+@media (max-width: 768px) {
+  .skill_info {
+    width: 90%;
+    justify-content: center;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .skill_info > li {
+    font-size: 18px;
+  }
+}
